@@ -1,0 +1,30 @@
+{
+  "replace": {
+    "main": "build/js/index.js",
+    "types": "build/js/index.d.ts",
+    "module": "build/js/index.mjs",
+    "exports": {
+      ".": {
+        "import": "./build/js/index.mjs",
+        "require": "./build/js/index.js",
+        "types": "./build/js/index.d.ts"
+      },
+      "./client-store": {
+        "import": "./build/js/client-store/index.mjs",
+        "require": "./build/js/client-store/index.js",
+        "types": "./build/js/client-store/index.d.ts"
+      },
+      "./metadata": {
+        "import": "./build/js/metadata/index.mjs",
+        "require": "./build/js/metadata/index.js",
+        "types": "./build/js/metadata/index.d.ts"
+      },
+      "./vochain": {
+        "import": "./build/js/vochain/index.mjs",
+        "require": "./build/js/vochain/index.js",
+        "types": "./build/js/vochain/index.d.ts"
+      },
+      "./package.json": "./package.json"
+    }
+  }
+}
