@@ -1,5 +1,5 @@
 {
-  "name": "@vocdoni/proto",
+  "name": "elboletaire-dvote-proto",
   "version": "1.15.3",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
