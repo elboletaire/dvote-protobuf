@@ -32,6 +32,7 @@
   "scripts": {
     "build": "make ts && tsup --dts --out-dir ./build/js",
     "clean": "rm -Rf build/ts build/js",
+    "prepack": "clean-package",
     "prepare": "make ts"
   },
   "files": [
